@@ -31,7 +31,7 @@ const labtops = [
   },
   {
     model: "samsung",
-    year: 200,
+    year: 2018,
     price: 50
   },
   {
@@ -40,6 +40,6 @@ const labtops = [
     price: 150
   }
 ];
-labtops.map(({ model }) => {
-  return `<h1>${model}</h1>`;
+labtops.map(({ model, year, price }) => {
+  return `<h1>${model}${year}${price}</h1>`;
 });
