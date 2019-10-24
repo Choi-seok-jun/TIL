@@ -1,5 +1,6 @@
 console.log("코드시작");
 const user = getUser(1);
+//user을 찾아서, repo를 찾아서 , commit를 찾고싶어!!
 const userCallback = getUserCallback(1, user => {
   console.log("유저를 찾고있어요...");
   getRepo(user.githubID, repo => {
