@@ -2,8 +2,8 @@ import React from "react";
 
 const Message = props => {
   return (
-    <div className="ui Message">
-      <div className="header">{props.header}</div>
+    <div className="ui message">
+      <div className="ui header">{props.header}</div>
       <p>{props.body}</p>
     </div>
   );
