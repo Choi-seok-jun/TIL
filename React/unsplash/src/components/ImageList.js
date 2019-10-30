@@ -1,8 +1,10 @@
 import React from "react";
 
 export default function ImageList(props) {
-  const images = props.images.map(images => {
-    return <img src={images.urls.small} alt={images.description} />;
+  const images = props.images.map(image => {
+    return <img src={image.urls.small} alt={image.description} />;
   });
-  return <>{images}</>;
+  return (
+    <div style={{ display: "flex", flexDirection: "column" }}>{images}</div>
+  );
 }

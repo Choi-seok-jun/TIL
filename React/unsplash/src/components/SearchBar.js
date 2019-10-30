@@ -16,9 +16,6 @@ export default class SearchBar extends Component {
           <label htmlFor="keyword">Search in Eng!</label>
           <input type="text" id="keyword" onChange={this.onChange} />
         </form>
-        <button id="next_btn" onClick={this.props.onClick}>
-          다음
-        </button>
         {/* props는 위로부터왔어요~ 부모컨테이너에서 자식컨테이너로 전달할때 쓴다. */}
       </div>
     );
