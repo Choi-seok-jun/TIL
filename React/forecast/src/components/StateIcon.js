@@ -1,10 +1,11 @@
 import React from "react";
 
-const StateIcon = () => {
+const StateIcon = ({ icon }) => {
   return (
-    <div>
-      <img src="http://placehold.it/100x100" alt="weather" />
-    </div>
+    <img
+      src={`http://openweathermap.org/img/wn/${icon}@2x.png`}
+      alt="weather"
+    />
   );
 };
 
