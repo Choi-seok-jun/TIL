@@ -1,0 +1,8 @@
+.weather_date {
+  background-color: lightgray;
+  display: inline-block;
+}
+.weather_date_1 {
+  background: aqua;
+  display: inline-block;
+}
